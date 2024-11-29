@@ -33,7 +33,7 @@ def validar_ganador():
         if tablero[0][col] == tablero[1][col] == tablero[2][col] and tablero[0][col] != " ":
             return tablero[0][col]
 
-    if tablero[0][0] == tablero[1][1] == tablero[2][2]:
+    if tablero[0][0] == tablero[1][1] == tablero[2][2] and tablero[0][0] != " ":
         return tablero[0][0]
 
     if tablero[0][2] == tablero[1][1] == tablero[2][0] and tablero[0][2] != " ":
